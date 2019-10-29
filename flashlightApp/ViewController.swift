@@ -24,11 +24,11 @@ class ViewController: UIViewController {
         case true:
             lightStatus.textColor = .black
             view.backgroundColor = .white
-            lightStatus.text = "Light is on"
+            lightStatus.text = "Light is currently on"
         case false:
             view.backgroundColor = .black
             lightStatus.textColor = .white
-            lightStatus.text = "Light is off"
+            lightStatus.text = "Light is currently off"
         }
     }
 }
